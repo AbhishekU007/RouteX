@@ -1,0 +1,134 @@
+{
+  "routeOptimized": true,
+  "trafficPageAndReplan": true,
+  "completedLabels": [],
+  "replanResponse": {
+    "status": 200,
+    "route": [
+      0,
+      1,
+      2
+    ],
+    "route_stop_indices": [
+      1
+    ],
+    "sequence": [
+      {
+        "position": 0,
+        "type": "current",
+        "latitude": 27.1779,
+        "longitude": 78.0101
+      },
+      {
+        "position": 1,
+        "type": "stop",
+        "index": 1,
+        "latitude": 27.1754,
+        "longitude": 78.013,
+        "label": "Stop 2"
+      },
+      {
+        "position": 2,
+        "type": "depot",
+        "latitude": 27.1767,
+        "longitude": 78.0081
+      }
+    ],
+    "metrics": {
+      "distance_km": 1.1,
+      "travel_time_minutes": 3.166666666666666,
+      "fuel_liters": 0.09166666666666666,
+      "combined_cost": 1.8533333333333335
+    },
+    "previous_metrics": {
+      "distance_km": 2.2,
+      "travel_time_minutes": 4.4,
+      "fuel_liters": 0.18333333333333332,
+      "combined_cost": 3.666666666666667
+    }
+  },
+  "apiCalls": [
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/network/load",
+      "body": "{\"city\":\"Agra, Uttar Pradesh, India\",\"offline_only\":true}"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/network/load",
+      "body": "{\"city\":\"Agra, Uttar Pradesh, India\",\"offline_only\":true}"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/network/load",
+      "body": "{\"city\":\"Agra, Uttar Pradesh, India\",\"offline_only\":true}"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/locations",
+      "body": "{\"depot\":{\"latitude\":27.1767,\"longitude\":78.0081},\"stops\":[{\"latitude\":27.1779,\"longitude\":78.0101},{\"latitude\":27.1754,\"longitude\":78.013},{\"latitude\":27.1733,\"longitude\":78.0076}]}"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/routes/optimize",
+      "body": "{\"city\":\"Agra, Uttar Pradesh, India\",\"depot\":[27.1767,78.0081],\"stops\":[[27.1779,78.0101],[27.1754,78.013],[27.1733,78.0076]],\"config\":{\"num_ants\":20,\"alpha\":1,\"beta\":3,\"evaporation_rate\":0.2,\"iterations\":40,\"distance_weight\":0.5,\"time_weight\":0.3,\"fuel_weight\":0.2,\"mileage_km_per_litre\":12,\"traffic_factor\":1,\"congestion_multiplier\":1}}"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/jobs/9bf54f143d2647b5ae44d0dad3ec304c",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/routes/current",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/routes/current",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/traffic/status",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/traffic/simulate",
+      "body": "{\"level\":\"heavy\",\"fraction\":1}"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/routes/replan",
+      "body": "{\"completed\":[2,0],\"config\":{\"mileage_km_per_litre\":12,\"traffic_factor\":1,\"congestion_multiplier\":1}}"
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

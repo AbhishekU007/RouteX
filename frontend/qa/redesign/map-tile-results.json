@@ -1,0 +1,193 @@
+{
+  "documentStatus": 200,
+  "contentSecurityPolicy": null,
+  "tileResponses": [
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "status": 200,
+      "contentType": "image/png"
+    }
+  ],
+  "tileFailures": [],
+  "nonCancellationFailures": [],
+  "desktopMap": {
+    "x": 287,
+    "y": 325.015625,
+    "width": 1118,
+    "height": 630
+  },
+  "desktopLoadedTiles": {
+    "visible": 20,
+    "loaded": 20
+  },
+  "mobileMap": {
+    "x": 17,
+    "y": 343.1875,
+    "width": 356,
+    "height": 590.796875
+  },
+  "mobileLoadedTiles": {
+    "visible": 8,
+    "loaded": 8
+  },
+  "runtimeErrors": [],
+  "screenshots": [
+    "map-live-desktop.png",
+    "map-live-mobile.png"
+  ]
+}
